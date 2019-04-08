@@ -2,13 +2,14 @@
   text-align: center;
   font-family: 'Oswald', sans-serif;
   font-family: 'Bangers', cursive;
+  color:white;
+ 
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
-  border: 1px dotted black;
 }
 
 .App-header {
@@ -37,4 +38,12 @@
 
 .navbar-header h2 {
   padding:1rem;
+}
+.card-frame {
+  padding:  1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-frame :hover {
+  padding: 1.2rem;
+box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 rgba(255, 255, 255, 0.45);
 }

@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './images/TotalRecall.png';
+import './App.css'
 import cards from './utils/carddata';
 import { Card, Header, Nav, Footer } from './components/index';
 const log = console.log;
