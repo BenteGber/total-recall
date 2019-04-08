@@ -5,13 +5,15 @@ export default function Nav(props) {
     <div>
       <nav className="navbar navbar-default">
         <div className="container-fluid">
-          <div className="navbar-header">
+          <div className="navbar-header d-flex flex-row">
             <a
               className="navbar-brand"
-              href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1600px-MarvelLogo.svg.png"
+                          href="#"
             >
-              <img alt="Brand" src={props.logo} />
+              <img alt="Brand" className ="App-logo" src={props.logo} />
             </a>
+            <h2>Current Score: {props.score}</h2>
+            <h2>High Score: {props.highScore}</h2>
           </div>
         </div>
       </nav>

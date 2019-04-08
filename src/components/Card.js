@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+// const log = console.log;
 
 export default class Card extends PureComponent {
   render() {
@@ -7,8 +8,10 @@ export default class Card extends PureComponent {
         <div className="col-xs-6 col-md-3">
           <a href="#" className="thumbnail">
             <img
+                id={this.props.alt}
               src={this.props.src}
               alt={this.props.alt}
+              onClick={this.props.onClick}
             />
           </a>
         </div>
